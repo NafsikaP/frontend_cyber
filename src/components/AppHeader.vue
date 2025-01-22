@@ -12,7 +12,7 @@ const applicationStore = useApplicationStore();
                     href="/"
                     class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
                 >
-                    <span class="fs-5 fw-bolder text-white">Aimodosia Online</span>
+                    <span class="fs-5 fw-bolder text-white">Blood Donation Online</span>
                 </a>
                 <ul class="nav nav-pills">
                     <li class="nav-item" v-if="applicationStore.isAuthenticated === true">
@@ -30,12 +30,12 @@ const applicationStore = useApplicationStore();
                                 data-bs-toggle="dropdown"
                                 aria-haspopup="true"
                                 aria-expanded="false">
-                                Aimodotes
+                                Blood Donors
                             </a>
                             <div class="dropdown-menu" aria-labelledby="aimodotisDropdown">
                                 <div v-if="applicationStore.userRole.includes('admin') || applicationStore.userRole.includes('secretary')">
                                     <router-link :to="{name:'aimodotes'}" class="dropdown-item">
-                                        Show Aimodotes
+                                        Show Blood Donors
                                     </router-link>
                                 </div>
                                 <div v-if="!applicationStore.userRole.includes('admin') && !applicationStore.userRole.includes('secretary') && !applicationStore.userRole.includes('aimodotis')">

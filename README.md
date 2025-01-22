@@ -1,5 +1,5 @@
-# Aimodosia Frontend
-This is the frontend of the web app Aimodosia in VUE 3.
+# Blood Donation Frontend
+This is the frontend of the web app Blood Donation in VUE 3.
 
 
 ## Project Setup

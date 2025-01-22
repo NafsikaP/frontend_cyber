@@ -18,7 +18,7 @@ onMounted(() => {
             <div class="row py-4 px-3">
                 <div class="col-12">
                     <div class="mb-4">
-                        <h1 class="fs-3">Aimodotes</h1>
+                        <h1 class="fs-3">Blood Donors</h1>
                     </div>
                     <div>
                         <table class="table">

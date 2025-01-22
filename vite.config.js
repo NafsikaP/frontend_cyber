@@ -11,6 +11,10 @@ export default defineConfig(({ mode }) => {
 
   return {
     server: {
+      https: {
+        key: './aimodosia-privateKey.key',
+        cert: './aimodosia.crt',
+      },
       proxy: {
         '/api/auth/signin': {
           target: `${env.VITE_BACKEND}`,

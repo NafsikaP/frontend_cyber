@@ -18,7 +18,7 @@ const { userData } = useApplicationStore();
                         <div class="about-section">
                             <div class="about-content">
                                 <h5 class="about-header">About</h5>
-                                <p>Welcome to Aimodosia Online, your gateway to saving lives through the simple act of donating blood.</p>
+                                <p>Welcome to Blood Donation Online, your gateway to saving lives through the simple act of donating blood.</p>
                                 <ul>
                                     <li><strong>Convenience:</strong> We make it easy for you to find nearby donation centers and schedule appointments that fit your busy schedule.</li>
                                     <li><strong>Safety:</strong> Your well-being is our top priority.</li>

@@ -62,7 +62,7 @@ const updateAimodotisId = (id) => {
                         <RouterLink class="small" :to="{ name: 'home' }"
                         >Home</RouterLink
                         >
-                        <h1 class="fs-3">Aimodotis #{{ aimodotisIdRef }}</h1>
+                        <h1 class="fs-3">Blood Donor #{{ aimodotisIdRef }}</h1>
                     </div>
                     <div class="mb-4">
                         <table class="table">
