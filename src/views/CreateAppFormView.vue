@@ -61,7 +61,7 @@ const onSubmit = async() => {
         return;
     }
     if (formDataRef.value.aimodotis.amka && !isValidAMKA(formDataRef.value.aimodotis.amka)) {
-        alert('Please enter a valid 11-digit AMKA.');
+        alert('Please enter a valid 11-digit SSN.');
         return;
     }
     if (formDataRef.value.aimodotis.age && !isValidAge(formDataRef.value.aimodotis.age)) {
@@ -145,7 +145,7 @@ const onSubmit = async() => {
             <input class="form-control" id="age" v-model="formDataRef.aimodotis.age" type="number" />
         </div>
         <div class="mb-2" :class="{ 'has-error': formDataRef.aimodotis.amka && !isValidAMKA(formDataRef.aimodotis.amka) }">
-            <label for="amka">AMKA</label>
+            <label for="amka">SSN</label>
             <input class="form-control" id="amka" v-model="formDataRef.aimodotis.amka" type="text" />
         </div>
         <div class="mb-2">

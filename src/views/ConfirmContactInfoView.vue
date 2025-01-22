@@ -81,7 +81,7 @@ const updateAimodotisId = (id) => {
                                 <th>Last Donation</th>
                                 <th>Age</th>
                                 <th>Location</th>
-                                <th>AMKA</th>
+                                <th>SSN</th>
                             </tr>
                             </thead>
                             <tbody v-if="loading">

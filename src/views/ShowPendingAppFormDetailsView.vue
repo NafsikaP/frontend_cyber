@@ -43,7 +43,7 @@ onMounted(() => {
                 <td>{{ data.aimodotis.lname }}</td>
             </tr>
             <tr>
-                <th>AMKA</th>
+                <th>SSN</th>
                 <td>{{ data.aimodotis.amka }}</td>
             </tr>
             <tr>

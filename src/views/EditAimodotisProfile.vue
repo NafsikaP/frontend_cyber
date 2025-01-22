@@ -57,7 +57,7 @@ const submitForm = () =>{
         return;
     }
     if (formDataRef.value.amka && !isValidAMKA(formDataRef.value.amka)) {
-        alert('Please enter a valid 11-digit AMKA.');
+        alert('Please enter a valid 11-digit SSN.');
         return;
     }
     if (formDataRef.value.age && !isValidAge(formDataRef.value.age)) {
@@ -116,7 +116,7 @@ const updateAimodotisId = (id) => {
                                 <th>Last Donation</th>
                                 <th>Age</th>
                                 <th>Location</th>
-                                <th>AMKA</th>
+                                <th>SSN</th>
                             </tr>
                             </thead>
                             <tbody v-if="loading">
@@ -157,7 +157,7 @@ const updateAimodotisId = (id) => {
                                 <input type="text" class="form-control" id="phone" v-model="formDataRef.phone"/>
                             </div>
                             <div class="mb-2" :class="{ 'has-error': formDataRef.amka && !isValidAMKA(formDataRef.amka) }">
-                                <label class="mb-1" for="amka">AMKA: </label>
+                                <label class="mb-1" for="amka">SSN: </label>
                                 <input type="text" class="form-control" id="amka" v-model="formDataRef.amka"/>
                             </div>
                             <div class="mb-2" :class="{ 'has-error': formDataRef.sex && !isValidSex(formDataRef.sex) }">

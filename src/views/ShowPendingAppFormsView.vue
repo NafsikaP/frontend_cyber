@@ -26,7 +26,7 @@ onMounted(() => {
                                 <th>ID</th>
                                 <th>Status</th>
                                 <th>Application Date</th>
-                                <th>AMKA</th>
+                                <th>SSN</th>
                             </tr>
                             </thead>
                             <tbody v-if="loading">
