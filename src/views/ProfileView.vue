@@ -31,18 +31,6 @@ const { userData } = useApplicationStore();
                                 <th>Email</th>
                                 <td>{{ userData.email }}</td>
                             </tr>
-                            <tr>
-                                <th>Roles</th>
-                                <td>{{ userData.roles }}</td>
-                            </tr>
-                            <tr>
-                                <th>Access Token</th>
-                                <td>{{ userData.accessToken }}</td>
-                            </tr>
-                            <tr>
-                                <th>Token Type</th>
-                                <td>{{ userData.tokenType }}</td>
-                            </tr>
                             </tbody>
                         </table>
                     </div>
